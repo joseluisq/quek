@@ -1,0 +1,28 @@
+{
+  "name": "quek",
+  "version": "1.0.0",
+  "description": "A pretty small ES6 Queue.",
+  "repository": "joseluisq/quek",
+  "license": "MIT",
+  "author": {
+    "name": "José Luis Quintana",
+    "url": "http://git.io/joseluisq"
+  },
+  "keywords": [
+    "queue",
+    "collection",
+    "enqueue",
+    "dequeue",
+    "peek",
+    "es6"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
