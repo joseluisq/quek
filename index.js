@@ -2,7 +2,7 @@ module.exports = () => {
   const queue = []
 
   return {
-    enqueue: (value) => {
+    enqueue: value => {
       queue.push(value)
     },
     dequeue: () => {
