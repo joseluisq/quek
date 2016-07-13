@@ -1,4 +1,5 @@
-# quek
+# quek [![Build Status](https://travis-ci.org/joseluisq/quek.svg?branch=master)](https://travis-ci.org/joseluisq/quek) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 > A pretty small [ES6](https://babeljs.io/docs/learn-es2015/) [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)).
 
 ## Install
@@ -14,6 +15,7 @@ const quek = require('quek')()
 
 console.log(quek.peek())
 // => undefined
+
 quek.enqueue('a')
 quek.enqueue('b')
 quek.enqueue('c')
