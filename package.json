@@ -22,6 +22,7 @@
   "main": "dist/quek.js",
   "scripts": {
     "build": "babel index.js | banr-stream > dist/quek.js && cat dist/quek.js | uglifyjs -mc | banr-stream > dist/quek.min.js",
+    "build-test": "npm run build && npm test",
     "test": "tape test.js"
   },
   "devDependencies": {
