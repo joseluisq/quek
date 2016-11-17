@@ -4,8 +4,24 @@
 
 ## Install
 
+#### CommonJS
+
 ```sh
-$ npm install quek --save-dev
+npm install quek --save-dev
+```
+
+#### AMD
+
+```js
+requirejs(['/your-path/quek'], Quek => {
+
+})
+```
+
+#### Browser
+
+```sh
+bower install quek --save
 ```
 
 ## Usage
