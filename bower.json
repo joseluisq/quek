@@ -1,0 +1,30 @@
+{
+  "name": "quek",
+  "description": "A pretty small ES6 Queue.",
+  "main": "dist/quek.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joseluisq/quek.git"
+  },
+  "author": {
+    "name": "José Luis Quintana",
+    "url": "http://git.io/joseluisq"
+  },
+  "license": "MIT",
+  "keywords": [
+    "queue",
+    "collection",
+    "enqueue",
+    "dequeue",
+    "peek",
+    "es6"
+  ],
+  "homepage": "https://github.com/joseluisq/quek",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
