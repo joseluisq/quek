@@ -1,7 +1,7 @@
 {
   "name": "quek",
   "description": "A pretty small ES6 Queue.",
-  "main": "dist/quek.min.js",
+  "main": "dist/quek.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/joseluisq/quek.git"
