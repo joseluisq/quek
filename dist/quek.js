@@ -1,4 +1,4 @@
-/*! quek v1.0.1 | MIT (c) 2016 José Luis Quintana */
+/*! quek v1.0.2 | MIT (c) 2016 José Luis Quintana */
 'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
