@@ -13,7 +13,7 @@ npm install quek --save-dev
 #### AMD
 
 ```js
-requirejs(['/your-path/quek'], Quek => {
+requirejs(['quek'], Quek => {
 
 })
 ```
@@ -35,14 +35,14 @@ console.log(quek.peek())
 quek.enqueue('a')
 quek.enqueue('b')
 quek.enqueue('c')
-console.log(quek.length)
+console.log(quek.length())
 // => 3
 
 console.log(quek.peek())
 // => a
 
 quek.dequeue()
-console.log(quek.length)
+console.log(quek.length())
 // => 2
 ```
 
