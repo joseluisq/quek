@@ -29,7 +29,7 @@ bower install quek --save
 
 ## Usage
 
-### Enqueue
+### Queue
 
 ```js
 const queue = require('quek')()
