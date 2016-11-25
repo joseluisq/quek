@@ -1,6 +1,6 @@
 {
   "name": "quek",
-  "description": "A pretty small ES6 API for Queue / Stack.",
+  "description": "A pretty small ES6 API for Queue and Stack ADTs.",
   "main": "dist/quek.js",
   "repository": {
     "type": "git",
@@ -13,6 +13,11 @@
   "license": "MIT",
   "keywords": [
     "queue",
+    "stack",
+    "pop",
+    "shift",
+    "push",
+    "ADT",
     "collection",
     "enqueue",
     "dequeue",
