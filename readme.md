@@ -1,6 +1,9 @@
 # quek [![Build Status](https://travis-ci.org/joseluisq/quek.svg?branch=master)](https://travis-ci.org/joseluisq/quek) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-> A pretty small [ES6](https://babeljs.io/docs/learn-es2015/) API for [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type) and [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type) [ADTs](https://en.wikipedia.org/wiki/Abstract_data_type).
+> A pretty small [ES6](https://babeljs.io/docs/learn-es2015/) API for [Queue][1] and [Stack][2] [ADTs](https://en.wikipedia.org/wiki/Abstract_data_type).
+
+[1]: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+[2]: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 
 ## Install
 
