@@ -1,30 +1,17 @@
-(() => {
-  const Quek = () => {
-    const queue = []
+module.exports = () => {
+  const que = []
 
-    return {
-      enqueue: value => {
-        queue.push(value)
-      },
-      dequeue: () => {
-        queue.shift()
-      },
-      peek: () => {
-        return queue[0]
-      },
-      length: () => {
-        return queue.length
-      }
-    }
-  }
+  return {
+    append: e => que.push(e),
+    prepend: e => que.unshift(e),
 
-  if (typeof module === 'object' && typeof module.exports === 'object') {
-    module.exports = Quek
-  } else if (typeof define === 'function' && define.amd) {
-    define([], () => {
-      return Quek
-    })
-  } else {
-    window.Quek = Quek
+    pop: () => que.pop(),
+    shift: () => que.shift(),
+
+    first: () => que[0],
+    last: () => que.slice(-1)[0],
+
+    all: () => que,
+    length: () => que.length
   }
-})()
+}

@@ -1,6 +1,6 @@
 {
   "name": "quek",
-  "description": "A pretty small ES6 Queue.",
+  "description": "A pretty small ES6 API for Queue / Stack.",
   "main": "dist/quek.js",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 # quek [![Build Status](https://travis-ci.org/joseluisq/quek.svg?branch=master)](https://travis-ci.org/joseluisq/quek) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-> A pretty small [ES6](https://babeljs.io/docs/learn-es2015/) [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)).
+> A pretty small [ES6](https://babeljs.io/docs/learn-es2015/) API for [Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type) and [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type) [ADTs](https://en.wikipedia.org/wiki/Abstract_data_type).
 
 ## Install
 
@@ -26,25 +26,53 @@ bower install quek --save
 
 ## Usage
 
-```js
-const quek = require('quek')()
+### Enqueue
 
-console.log(quek.peek())
+```js
+const queue = require('quek')()
+
+console.log(queue.first())
 // => undefined
 
-quek.enqueue('a')
-quek.enqueue('b')
-quek.enqueue('c')
-console.log(quek.length())
+queue.append('a')
+queue.append('b')
+queue.append('c')
+console.log(queue.length())
 // => 3
 
-console.log(quek.peek())
+console.log(queue.first())
 // => a
 
-quek.dequeue()
-console.log(quek.length())
+queue.shift()
+console.log(queue.length())
 // => 2
 ```
+
+### Stack
+
+```js
+const stack = require('quek')()
+
+console.log(stack.last())
+// => undefined
+
+stack.prepend('a')
+stack.prepend('b')
+stack.prepend('c')
+console.log(stack.length())
+// => 3
+
+console.log(stack.last())
+// => c
+
+stack.pop()
+console.log(stack.length())
+// => 2
+```
+
+## API
+
+For more API functions check out [index.js](index.js).
 
 ## Contributions
 [Pull requests](https://github.com/joseluisq/quek/pulls) and [issues](https://github.com/joseluisq/quek/issues) are welcome.
