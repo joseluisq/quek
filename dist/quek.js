@@ -1,4 +1,4 @@
-/*! quek v1.0.2 | MIT (c) 2016 José Luis Quintana */
+/*! quek v1.1.0 | MIT (c) 2016 José Luis Quintana */
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
     define("Quek", ["module"], factory);
