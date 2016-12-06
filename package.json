@@ -34,8 +34,8 @@
     "prepublish": "node ./scripts/build.js",
     "release": "node ./scripts/release.js",
     "lint": "eslint src",
-    "test": "npm run lint && jest --coverage && npm run test:coverage",
-    "test:coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test": "npm run lint && jest --coverage",
+    "coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
