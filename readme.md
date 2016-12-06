@@ -23,9 +23,19 @@ requirejs(['quek'], Quek => {
 
 #### Browser
 
+#### Bower
 ```sh
 bower install quek --save
 ```
+
+##### CDN
+[UMD](https://github.com/umdjs/umd/) file is also available on [unpkg](https://unpkg.com):
+
+```html
+<script src="https://unpkg.com/quek/dist/quek.min.js"></script>
+```
+
+You can use the library via `window.Quek`.
 
 ## Usage
 
@@ -47,6 +57,7 @@ console.log(queue.first())
 // => a
 
 queue.shift()
+
 console.log(queue.length())
 // => 2
 ```
@@ -69,13 +80,14 @@ console.log(stack.last())
 // => c
 
 stack.pop()
+
 console.log(stack.length())
 // => 2
 ```
 
 ## API
 
-For more API functions check out [index.js](index.js).
+For more API functions check out [./src/quek.js](./src/quek.js).
 
 ## Contributions
 [Pull requests](https://github.com/joseluisq/quek/pulls) and [issues](https://github.com/joseluisq/quek/issues) are welcome.

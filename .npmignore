@@ -1,8 +1,9 @@
-index.js
 *#
 node_modules
+coverage
 ssl
 .DS_STORE
+.DS_Store
 *.swo
 *.swp
 *.swn
@@ -16,6 +17,10 @@ nbproject
 .gitignore
 .tmp
 .jshintrc
+.eslintrc
+scripts
+bower.json
+webpack.config.js
 .editorconfig
 CONTRIBUTING.md
 *.md
