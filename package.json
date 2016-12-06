@@ -1,6 +1,6 @@
 {
   "name": "quek",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A pretty small ES6 API for Queue and Stack ADTs.",
   "repository": "joseluisq/quek",
   "license": "MIT",
