@@ -1,6 +1,4 @@
-/* global test, expect */
-
-import Quek from '../src/quek'
+import Quek from './'
 
 test('Queue test', () => {
   const queue = Quek()

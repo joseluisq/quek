@@ -1,48 +1,42 @@
-# quek [![Build Status](https://travis-ci.org/joseluisq/quek.svg?branch=master)](https://travis-ci.org/joseluisq/quek) [![Coverage Status](https://coveralls.io/repos/github/joseluisq/quek/badge.svg?branch=master)](https://coveralls.io/github/joseluisq/quek?branch=master)  [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+# Quek
 
-> A pretty small (300 bytes) [ES6](https://babeljs.io/docs/learn-es2015/) API for [Queue][1] and [Stack][2] [ADTs](https://en.wikipedia.org/wiki/Abstract_data_type).
+[![Build Status](https://travis-ci.org/joseluisq/quek.svg?branch=master)](https://travis-ci.org/joseluisq/quek) [![Coverage Status](https://coveralls.io/repos/github/joseluisq/quek/badge.svg?branch=master)](https://coveralls.io/github/joseluisq/quek?branch=master)  [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+> A pretty small (270 bytes) [ES6](https://babeljs.io/docs/learn-es2015/) API for [Queue][1] and [Stack][2] [ADTs](https://en.wikipedia.org/wiki/Abstract_data_type).
 
 [1]: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
 [2]: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
 
 ## Install
 
-#### CommonJS
+[Yarn](https://github.com/yarnpkg/)
+
+```sh
+yarn add quek --dev
+```
+
+[NPM](https://www.npmjs.com/)
 
 ```sh
 npm install quek --save-dev
 ```
 
-#### AMD
-
-```js
-requirejs(['quek'], Quek => {
-
-})
-```
-
-#### Browser
-
-#### Bower
-```sh
-bower install quek --save
-```
-
-##### CDN
 [UMD](https://github.com/umdjs/umd/) file is also available on [unpkg](https://unpkg.com):
 
 ```html
 <script src="https://unpkg.com/quek/dist/quek.min.js"></script>
 ```
 
-You can use the library via `window.Quek`.
+You can use the library via `window.quek`.
 
 ## Usage
 
 ### Queue
 
 ```js
-const queue = require('quek')()
+import quek from 'quek'
+
+const queue = quek()
 
 console.log(queue.first())
 // => undefined
@@ -65,7 +59,9 @@ console.log(queue.length())
 ### Stack
 
 ```js
-const stack = require('quek')()
+import quek from 'quek'
+
+const stack = quek()
 
 console.log(stack.last())
 // => undefined
@@ -87,7 +83,7 @@ console.log(stack.length())
 
 ## API
 
-For more API functions check out [./src/quek.js](./src/quek.js).
+For more functions check out [the source file](./index.js).
 
 ## Contributions
 [Pull requests](https://github.com/joseluisq/quek/pulls) and [issues](https://github.com/joseluisq/quek/issues) are welcome.
@@ -95,4 +91,4 @@ For more API functions check out [./src/quek.js](./src/quek.js).
 ## License
 MIT license
 
-© 2016 [José Luis Quintana](http://git.io/joseluisq)
+© 2017 [José Luis Quintana](http://git.io/joseluisq)
