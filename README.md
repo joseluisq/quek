@@ -1,6 +1,6 @@
-# Quek
+# Quesk
 
-[![Build Status](https://travis-ci.org/joseluisq/quek.svg?branch=master)](https://travis-ci.org/joseluisq/quek) [![Coverage Status](https://coveralls.io/repos/github/joseluisq/quek/badge.svg?branch=master)](https://coveralls.io/github/joseluisq/quek?branch=master)  [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Build Status](https://travis-ci.org/joseluisq/quesk.svg?branch=master)](https://travis-ci.org/joseluisq/quesk) [![Coverage Status](https://coveralls.io/repos/github/joseluisq/quesk/badge.svg?branch=master)](https://coveralls.io/github/joseluisq/quesk?branch=master)  [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 > A pretty small (270 bytes) [ES6](https://babeljs.io/docs/learn-es2015/) API for [Queue][1] and [Stack][2] [ADTs](https://en.wikipedia.org/wiki/Abstract_data_type).
 
@@ -12,31 +12,33 @@
 [Yarn](https://github.com/yarnpkg/)
 
 ```sh
-yarn add quek --dev
+yarn add quesk --dev
 ```
 
 [NPM](https://www.npmjs.com/)
 
 ```sh
-npm install quek --save-dev
+npm install quesk --save-dev
 ```
 
 [UMD](https://github.com/umdjs/umd/) file is also available on [unpkg](https://unpkg.com):
 
 ```html
-<script src="https://unpkg.com/quek/dist/quek.min.js"></script>
+<script src="https://unpkg.com/quesk/dist/quesk.min.js"></script>
 ```
 
-You can use the library via `window.quek`.
+You can use the library via `window.quesk`.
 
 ## Usage
+
+Quesk can act like a [Queue][1] or [Stack][2] collection.
 
 ### Queue
 
 ```js
-import quek from 'quek'
+import quesk from 'quesk'
 
-const queue = quek()
+const queue = quesk()
 
 console.log(queue.first())
 // => undefined
@@ -59,9 +61,9 @@ console.log(queue.length())
 ### Stack
 
 ```js
-import quek from 'quek'
+import quesk from 'quesk'
 
-const stack = quek()
+const stack = quesk()
 
 console.log(stack.last())
 // => undefined
@@ -86,7 +88,7 @@ console.log(stack.length())
 For more functions check out [the source file](./index.js).
 
 ## Contributions
-[Pull requests](https://github.com/joseluisq/quek/pulls) and [issues](https://github.com/joseluisq/quek/issues) are welcome.
+[Pull requests](https://github.com/joseluisq/quesk/pulls) and [issues](https://github.com/joseluisq/quesk/issues) are very appreciated.
 
 ## License
 MIT license

@@ -1,7 +1,7 @@
-import Quek from './'
+import quesk from './'
 
 test('Queue test', () => {
-  const queue = Quek()
+  const queue = quesk()
 
   expect(queue.first()).toBeUndefined()
 
@@ -19,7 +19,7 @@ test('Queue test', () => {
 })
 
 test('Stack test', () => {
-  const stack = Quek()
+  const stack = quesk()
 
   expect(stack.last()).toBeUndefined()
 

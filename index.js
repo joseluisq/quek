@@ -1,6 +1,6 @@
 /* @flow */
 
-export default function quek () {
+export default function quesk () {
   const queue: Array<mixed> = []
 
   return {
