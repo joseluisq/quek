@@ -16,7 +16,7 @@ if (env === 'minified') {
     moduleName: pkg.name
   })
 } else {
-  targets.push({dest: `dist/${pkg.name}.js`, format: 'cjs'})
+  targets.push({ dest: `dist/${pkg.name}.js`, format: 'cjs' })
 }
 
 export default {
