@@ -1,6 +1,6 @@
 {
   "name": "quesk",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Queue + Stack ADTs.",
   "repository": "joseluisq/quesk",
   "license": "MIT",
